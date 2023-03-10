@@ -1,4 +1,5 @@
 format = """
+[ 󰣇 ](fg:#0F94D2 bg:#2A2A2A)[](fg:#2A2A2A bg:#00D995)\
 $time\
 $username\
 $directory\
@@ -26,7 +27,7 @@ truncation_symbol = "…/"
 
 [time]
 disabled = false
-time_format = "%l:%M"
+time_format = "%I:%M"
 style = "fg:#1A1A1A bg:#00D995"
 format = '[ $time ]($style)'
 
